@@ -6,7 +6,7 @@ function volume_sphere() {
       volumeField.value = "Invalid radius";
     } else {
       let volume = (4/3) * Math.PI * Math.pow(radius, 3);
-      volumeField.value = volume.toFixed(2);
+      volumeField.value = volume.toFixed(4);
         // volumeField.innerText = volumeField.value;
         
     }
